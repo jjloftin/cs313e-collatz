@@ -3,6 +3,6 @@ Use 'coverage help' for help.
 Name          Stmts   Miss Branch BrMiss  Cover   Missing
 ---------------------------------------------------------
 Collatz          18      0      6      0   100%   
-TestCollatz      32      1      0      0    97%   99
+TestCollatz      63     39      0      0    38%   32-36, 44, 48-56, 62-64, 74-75, 77-136
 ---------------------------------------------------------
-TOTAL            50      1      6      0    98%   
+TOTAL            81     39      6      0    55%   
