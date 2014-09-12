@@ -40,7 +40,8 @@ def collatz_eval (i, j) :
     if(i < (j//2 + 1)):
     #For all k with cycle length l in [i,j//2], there exists 2k with cycle length l + 1 in [j//2 + 1,j]  
       i = j//2 + 1
-      
+    
+    cache = {}    
     
     max = 1
     assert(i > 0)
@@ -53,9 +54,19 @@ def collatz_eval (i, j) :
       while (n != 1):
         if(n % 2 == 0):
           n = n // 2
+          
+          if(n in cache):
+            count = cache[n] + 1
+            break
+            
           count +=1
         else:
           n = n + (n//2) + 1
+          
+          if(n in cache):
+            count = cache[n] + 2
+            break
+            
           count += 2
         
         
@@ -66,6 +77,9 @@ def collatz_eval (i, j) :
     assert(max >= 1)
     
     return max
+
+      
+
 
 # -------------
 # collatz_print

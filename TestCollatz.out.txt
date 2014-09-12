@@ -1,8 +1,5 @@
-You must specify at least one of -e, -x, -c, -r, -a, or -b.
-Use 'coverage help' for help.
-Name          Stmts   Miss Branch BrMiss  Cover   Missing
----------------------------------------------------------
-Collatz          18      0      6      0   100%   
-TestCollatz      32      1      0      0    97%   99
----------------------------------------------------------
-TOTAL            50      1      6      0    98%   
+.............
+----------------------------------------------------------------------
+Ran 13 tests in 0.033s
+
+OK
