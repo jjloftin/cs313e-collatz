@@ -1,0 +1,48 @@
+commit 28e73aa3475ce9784dce84e9ddefe62ace928794
+Author: jjloftin <johnloftin99@gmail.com>
+Date:   Thu Sep 11 21:48:24 2014 -0500
+
+    Penultimate update. SphereCollatz with cache added
+
+commit 0b57351e2ae09178203e267288f3570227fbebe4
+Author: jjloftin <johnloftin99@gmail.com>
+Date:   Thu Sep 11 20:06:55 2014 -0500
+
+    Add odd number optimizaton. Sphere now accepts answer
+
+commit 529369ff5d8e8c2edfb9bbeb0cd7060fd30e12d3
+Author: jjloftin <johnloftin99@gmail.com>
+Date:   Thu Sep 11 19:42:03 2014 -0500
+
+    Add Sphere Collatz.py. Hits \'run time exceeded\' error on Sphere Judging.
+
+commit f1e3de13ca723a31dc4b5c10e1df39cadfd03f35
+Author: jjloftin <johnloftin99@gmail.com>
+Date:   Thu Sep 11 18:38:59 2014 -0500
+
+    Properly implement Collatz_Eval with pre and post-conditions
+
+commit fe47a9b8b4cbbb6423594642bfe54e3e82d3e6b6
+Merge: 62d4a3d d5d40f5
+Author: JJ <johnloftin99@gmail.com>
+Date:   Thu Sep 11 15:22:48 2014 -0500
+
+    Merge https://github.com/jjloftin/cs313e-collatz
+
+commit 62d4a3d4dafafd5632ce9b20aa3f8e2a3f09c222
+Author: JJ <johnloftin99@gmail.com>
+Date:   Thu Sep 11 15:14:13 2014 -0500
+
+    Add unit tests and add coverage of those unit tests
+
+commit d5d40f5ce1aa2bedbe30e55da83827e61b357435
+Author: JJ <johnloftin99@gmail.com>
+Date:   Thu Sep 11 13:33:45 2014 -0500
+
+    Fix unit tests
+
+commit caf85b2ae4fd55aa19f30da78479412335d13842
+Author: JJ <johnloftin99@gmail.com>
+Date:   Thu Sep 11 03:52:41 2014 -0500
+
+    Add copy of public repo code to private project repository
