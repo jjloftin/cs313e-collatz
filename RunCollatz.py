@@ -14,6 +14,10 @@ import sys
 
 from Collatz import collatz_solve
 
+# ----
+# main
+# ----
+
 collatz_solve(sys.stdin, sys.stdout)
 
 """
